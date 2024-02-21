@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# GitHub Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Explorando o Universo TypeScript e React com o GitHub Finder!
 
-Currently, two official plugins are available:
+Bem-vindo ao GitHub Finder, um projeto desenvolvido para aprimorar meus estudos em TypeScript e React. Esta aplicação utiliza a API do GitHub para localizar usuários, fornecendo informações valiosas como localização, seguidores e quem estão seguindo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+ºBusca de Usuários: Encontre usuários do GitHub e obtenha detalhes essenciais.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+ºInformações de Localização: Descubra a localização do usuário do GitHub.
 
-- Configure the top-level `parserOptions` property like this:
+ºSeguidores e Seguindo: Veja rapidamente o número de seguidores e usuários que estão sendo seguidos.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Reconhecimentos
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Este projeto foi desenvolvido com inspiração no excelente tutorial do Matheus Battisti, que forneceu um guia passo a passo para a construção do GitHub Finder.
+
+## Tecnologias Utilizadas
+
+°Typescript
+
+°React.js
